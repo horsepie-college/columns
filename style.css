@@ -1,0 +1,51 @@
+@font-face {
+    font-family: ohrrpgce;
+    src: url(ohrrpgcev5.ttf);
+  }
+
+body {
+    background-color: black;
+    color: white;
+    font-family: ohrrpgce;
+    font-size: 36px; 
+  }
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+h2 {
+  color:cyan;
+}
+
+ul {
+  color:magenta;
+}
+
+a {
+  color:cyan;
+}
