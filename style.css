@@ -13,6 +13,7 @@ body {
 
 th, td {
   text-align: center;
+  border: 2px solid white;
   padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 30px;
@@ -38,7 +39,11 @@ th, td {
   content: "";
   clear: both;
   display: table;
-} 
+}
+
+h1, h2, h3, th, td {
+  font-weight: normal;
+}
 
 h1, h3 {
   text-align: center;
