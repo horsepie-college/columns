@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Columns 3 Central!</title>
         <link rel="icon" type="image/png" href="assets/favicon.png">
-        <link rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -25,51 +25,57 @@
                 <input type="submit" value="SUBMIT :DDDD"
               </form>  -->
 
-              <form action="#" method="post">
+            <form action="show-action.php" method="POST">
 
                 <p>
-                    <label for="username">Username:</label>
+                    <label for="sludgehandle">Enter sludgehandle: <br><small>(sludgehandles are limited to 2 characters):</small></label>
                     <br>
-                    <input type="text" name="username" size="15" maxlength="2">
+                    <input type="text" name="sludgehandle" size="4" maxlength="2">
                 </p>
 
                 <p>
-                    <label for="password">Enter password:</label>
+                    <label for="sludepass">Enter sludgepass: <br><small>(sludgepasses are limited to 2 characters):</small></label>
                     <br>
-                    <input type="password" name="password" size="15" maxlength="3">
+                    <input type="password" name="sludgepass" size="4" maxlength="2">
                 </p>
 
-              </form>
-
-
-              <form action="#" method="post">
 
                 <p>Please select your favourite consumable matter entity:
                     <br>
-
-                    <input type="radio" name="film" value="nibblers"> Nibblers
+                    <input type="radio" name="matter entity" value="nibblers"> Nibblers
                     <br>
-                    <input type="radio" name="film" value="protein"> Protein 5b
+                    <input type="radio" name="matter entity" value="protein"> Protein 5b
                     <br>
-                    <input type="radio" name="film" value="bugmix"> Bug mix
+                    <input type="radio" name="matter entity" value="bugmix"> Bug mix
                     <br>
-                    <input type="radio" name="film" value="sludge"> The sludge
+                    <input type="radio" name="matter entity" value="sludge"> The sludge
                 </p>
 
-              </form>
 
-              <form action="#" method="post">
+                <p>Please select the sector(s) you have visited today:
+                    <br>
+                    <input type="checkbox" name="sector" value="dungdistrict"> Dung District
+                    <br>
+                    <input type="checkbox" name="sector" value="homepod"> Home Pod
+                    <br>
+                    <input type="checkbox" name="sector" value="peatfields"> Peat Fields
+                    <br>
+                    <input type="checkbox" name="sector" value="heatcube"> The *Heatcube*
+                </p>
 
-                <p>Please select the locations you have visited today:
+                <p>Please select your auditory pleasure device:
                     <br>
 
-                    <input type="checkbox" name="location" value="dungdistrict"> Dung District
-                    <br>
-                    <input type="checkbox" name="location" value="homepod"> Home Pod
-                    <br>
-                    <input type="checkbox" name="location" value="peatfields"> Peat Fields
-                    <br>
-                    <input type="checkbox" name="location" value="heatcube"> The Heat Cube
+                    <select name="device">
+                        <option value="larynximplant">Larynx implant</option>
+                        <option value="earcream">Ear cream</option>
+                        <option value="personalscreecher">Personal screecher</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input type="submit"/>
                 </p>
 
               </form>

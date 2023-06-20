@@ -6,9 +6,18 @@
 body {
     background-color: black;
     color: white;
+
+
     font-family: ohrrpgce;
-    font-size: 36px; 
+    font-size: 36px;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+
+
     background: url('assets/backstar.gif');
+    image-rendering: pixelated;
+
+
   }
 
 th, td {
